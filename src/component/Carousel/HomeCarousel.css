@@ -1,0 +1,65 @@
+.CarouselHomeMain {
+    font-family: "Lacquer", system-ui;
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+
+.recipe-content {
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex: 4 1 40ch;
+    gap: 0.1rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel {
+    height: 89vh;
+}
+
+.CarouselImage {
+    height: 90vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+.CarouselImageRight {
+    object-position: right;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    display: flex;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.CarouselHeader {
+    font-family: "Lacquer", system-ui;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    /* text-stroke: 4px navy; */
+}
+
+.CarouselHeader h1 {
+    font-family: "Lacquer", system-ui;
+}
+
+@media (max-width: 1000px) {
+
+    /* .CarouselImage{
+        
+    } */
+    .CarouselImageCenter {
+        object-position: center;
+    }
+}

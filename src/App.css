@@ -1,0 +1,31 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    cursor: url('./images/cursor/full-cursor1.png'), auto;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    --purple: rgb(177, 43, 255);
+    overflow-x: hidden;
+}
+
+.CartComponent {
+    max-width: 96rem;
+    margin: 7rem auto;
+}
+
+.go4109123758 {
+    margin-top: 3.5rem;
+}
+
+@media (max-width:500px) {
+    .CartComponent {
+        margin: 5rem auto;
+    }
+}

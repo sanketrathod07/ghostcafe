@@ -1,0 +1,11 @@
+.ghostwalkingMainContainer {
+    position: absolute;
+    top: 85rem;
+    right: 49%;
+    z-index: 9;
+}
+@media (max-width: 500px) {
+    .ghostwalkingMainContainer {
+        top: 70rem;
+    }
+}

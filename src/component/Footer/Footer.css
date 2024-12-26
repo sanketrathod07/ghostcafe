@@ -1,0 +1,70 @@
+/* General styles for custom footer */
+.customFooter-pc {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.customFooter-mobile {
+    display: none;
+}
+
+/* Footer text */
+.customFooter-copyright p {
+    font-family: 'Rubik One', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.customFooter-copyright p span {
+    transition: background-color, color 1500ms ease;
+    background-color: black;
+    color: white;
+}
+
+.customFooter-copyright p span:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer Image Links */
+.customFooter-github,
+.customFooter-codepen {
+    transition: color 500ms ease;
+    font-size: 3em;
+    padding: 10px;
+    display: inline-block;
+}
+
+.customFooter-github {
+    color: rgb(255, 255, 255);
+}
+
+.customFooter-codepen {
+    color: #ffffff;
+}
+
+/* Image links hover effects */
+.customFooter-github:hover,
+.customFooter-codepen:hover {
+    color: rgb(0 196 255);
+}
+
+/* Responsive footer */
+@media screen and (max-width: 400px) {
+    .customFooter-pc {
+        display: none;
+    }
+
+    .customFooter-mobile {
+        display: block;
+    }
+
+    .customFooter-mobile .customFooter-copyright p {
+        font-size: 15px;
+    }
+}

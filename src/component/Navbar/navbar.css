@@ -1,0 +1,62 @@
+.NavbarMainContainer {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem; 
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  
+  .logoContainer {
+    margin-left: 0.5rem;
+  }
+  
+  .NavbarLogo {
+    height: 3rem;
+  }
+  
+  .Googlediv {
+    display: flex;
+    padding-right: 1rem;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .UserImageNavbar {
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .NavbarBtn {
+    display: flex;
+    height: 2.7rem;
+    width: 2.8rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    border-radius: 50%;
+    transition: 0.2s all ease-in-out;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .NavbarBtn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(177, 43, 255);
+  }
+  
+  .cl-internal-11ewti4 {
+    height: 2.5rem;
+    width: 2.6rem;
+  }
+  

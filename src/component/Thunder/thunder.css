@@ -1,0 +1,9 @@
+.gifContainerMain {
+    position: absolute;
+    z-index: 99;
+    right: 5%;
+}
+
+.gifImage{
+    height: 65vh;
+}

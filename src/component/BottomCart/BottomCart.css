@@ -1,0 +1,56 @@
+.BottomCardMainContainer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgb(151, 0, 238);
+    z-index: 1000;
+    transform: translateY(0px);
+}
+
+.BottomCardMainContainerAnimation {
+    position: fixed;
+    transform: translateY(53px);
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+
+.BottomCardSubMainContainer {
+    display: flex;
+    width: 80rem;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.BottomCardDiv2Text1TextContent svg {
+    margin-left: 0.4rem;
+}
+
+.BottomCardDiv2Text1TextContent {
+    color: white;
+    cursor: pointer;
+}
+
+.BottomCardDiv1,
+.BottomCardDiv2Text1TextContent,
+.BottomCardDiv2Text2TextContent {
+    padding: 0.9rem 0rem;
+    margin: 0rem 1rem;
+    font-weight: 900;
+}
+
+@media (max-width:500px) {
+    .BottomCardDiv1 {
+        margin: 0rem 0rem 0rem 1.3rem;
+    }
+
+    .BottomCardDiv2Text1TextContent {
+        margin-right: 0.1rem;
+    }
+
+    .BottomCardDiv2Text2TextContent {
+        margin-right: 1.3rem;
+    }
+}

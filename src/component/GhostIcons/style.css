@@ -1,0 +1,19 @@
+.BatIconMainContainer {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.gif-animation {
+    animation: playOnce 3.8s steps(1) forwards;
+    width: 100%;
+}
+
+@keyframes playOnce {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
